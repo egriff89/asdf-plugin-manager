@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.2.0](https://github.com/egriff89/asdf-plugin-manager/compare/v1.4.0...v1.2.0) (2025-01-30)
+
+
+### Features
+
+* add update and update-all options ([#15](https://github.com/egriff89/asdf-plugin-manager/issues/15)) ([426f70e](https://github.com/egriff89/asdf-plugin-manager/commit/426f70e9a5abfe7c77b3df44db7a84a6af901a63))
+* asdf-plugin-manager first version ([#1](https://github.com/egriff89/asdf-plugin-manager/issues/1)) ([a68f1d7](https://github.com/egriff89/asdf-plugin-manager/commit/a68f1d7c904dc282c4e02e218cd4ae530e0db33d))
+* check if .plugin-versions exists before parsing args ([#43](https://github.com/egriff89/asdf-plugin-manager/issues/43)) ([a57c48f](https://github.com/egriff89/asdf-plugin-manager/commit/a57c48f16a52ea3193f52b36b5f4a25bce9b0a74))
+* **follow-up:** early exit if no update is available ([1e00ba7](https://github.com/egriff89/asdf-plugin-manager/commit/1e00ba70ff7b76288d27c9fdcda180a10740326f))
+* notify user if the plugin git url doesn't match what in .plugin-versions ([#65](https://github.com/egriff89/asdf-plugin-manager/issues/65)) ([4be90c2](https://github.com/egriff89/asdf-plugin-manager/commit/4be90c2633e6697db853420e4a35304f84fbbafb))
+
+
+### Bug Fixes
+
+* ensure 2nd arg is provided for the options need it ([#17](https://github.com/egriff89/asdf-plugin-manager/issues/17)) ([a6664fd](https://github.com/egriff89/asdf-plugin-manager/commit/a6664fd1dbb2322705b0c184fcb9ae0aa1da9f01))
+* ensure asdf-plugin-manager works in expected worktree ([#56](https://github.com/egriff89/asdf-plugin-manager/issues/56)) ([309be80](https://github.com/egriff89/asdf-plugin-manager/commit/309be80421c6cfdd0237ab18a39422a40f98e229))
+* update all plugins even if any plugin is already updated ([#45](https://github.com/egriff89/asdf-plugin-manager/issues/45)) ([4950f98](https://github.com/egriff89/asdf-plugin-manager/commit/4950f983010c977bc5db50cdf6b57c7c48924548)), closes [#38](https://github.com/egriff89/asdf-plugin-manager/issues/38)
+* use macos compatible sed syntax ([#63](https://github.com/egriff89/asdf-plugin-manager/issues/63)) ([4de7c98](https://github.com/egriff89/asdf-plugin-manager/commit/4de7c981f35b15360ae5a0adaf8d65460495e4d7))
+* use syntax compatible with bash 3 ([#19](https://github.com/egriff89/asdf-plugin-manager/issues/19)) ([85fbefd](https://github.com/egriff89/asdf-plugin-manager/commit/85fbefda14280f0eb226c950d880c58ec1410e6f))
+
+
+### Miscellaneous Chores
+
+* release 1.2.0 ([eaeb78c](https://github.com/egriff89/asdf-plugin-manager/commit/eaeb78c7395930b942ef7b52418df3e85c597a3f))
+
 ## [1.4.0](https://github.com/asdf-community/asdf-plugin-manager/compare/v1.3.1...v1.4.0) (2024-09-23)
 
 
