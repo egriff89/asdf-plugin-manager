@@ -1,5 +1,54 @@
 # Changelog
 
+## [1.5.0](https://github.com/egriff89/asdf-plugin-manager/compare/v1.5.0...v1.5.0) (2025-08-29)
+
+
+### Features
+
+* add update and update-all options ([#15](https://github.com/egriff89/asdf-plugin-manager/issues/15)) ([426f70e](https://github.com/egriff89/asdf-plugin-manager/commit/426f70e9a5abfe7c77b3df44db7a84a6af901a63))
+* asdf-plugin-manager first version ([#1](https://github.com/egriff89/asdf-plugin-manager/issues/1)) ([a68f1d7](https://github.com/egriff89/asdf-plugin-manager/commit/a68f1d7c904dc282c4e02e218cd4ae530e0db33d))
+* check if .plugin-versions exists before parsing args ([#43](https://github.com/egriff89/asdf-plugin-manager/issues/43)) ([a57c48f](https://github.com/egriff89/asdf-plugin-manager/commit/a57c48f16a52ea3193f52b36b5f4a25bce9b0a74))
+* **follow-up:** early exit if no update is available ([1e00ba7](https://github.com/egriff89/asdf-plugin-manager/commit/1e00ba70ff7b76288d27c9fdcda180a10740326f))
+* notify user if the plugin git url doesn't match what in .plugin-versions ([#65](https://github.com/egriff89/asdf-plugin-manager/issues/65)) ([4be90c2](https://github.com/egriff89/asdf-plugin-manager/commit/4be90c2633e6697db853420e4a35304f84fbbafb))
+
+
+### Bug Fixes
+
+* ensure 2nd arg is provided for the options need it ([#17](https://github.com/egriff89/asdf-plugin-manager/issues/17)) ([a6664fd](https://github.com/egriff89/asdf-plugin-manager/commit/a6664fd1dbb2322705b0c184fcb9ae0aa1da9f01))
+* ensure asdf-plugin-manager works in expected worktree ([#56](https://github.com/egriff89/asdf-plugin-manager/issues/56)) ([309be80](https://github.com/egriff89/asdf-plugin-manager/commit/309be80421c6cfdd0237ab18a39422a40f98e229))
+* update all plugins even if any plugin is already updated ([#45](https://github.com/egriff89/asdf-plugin-manager/issues/45)) ([4950f98](https://github.com/egriff89/asdf-plugin-manager/commit/4950f983010c977bc5db50cdf6b57c7c48924548)), closes [#38](https://github.com/egriff89/asdf-plugin-manager/issues/38)
+* use macos compatible sed syntax ([#63](https://github.com/egriff89/asdf-plugin-manager/issues/63)) ([4de7c98](https://github.com/egriff89/asdf-plugin-manager/commit/4de7c981f35b15360ae5a0adaf8d65460495e4d7))
+* use syntax compatible with bash 3 ([#19](https://github.com/egriff89/asdf-plugin-manager/issues/19)) ([85fbefd](https://github.com/egriff89/asdf-plugin-manager/commit/85fbefda14280f0eb226c950d880c58ec1410e6f))
+
+
+### Miscellaneous
+
+* release 1.2.0 ([eaeb78c](https://github.com/egriff89/asdf-plugin-manager/commit/eaeb78c7395930b942ef7b52418df3e85c597a3f))
+* release 1.5.0 ([b311465](https://github.com/egriff89/asdf-plugin-manager/commit/b3114657533bd3c452278af7d6878bc6a2e0d9ab))
+
+
+### Documentation
+
+* add more details ([b6b2eee](https://github.com/egriff89/asdf-plugin-manager/commit/b6b2eeeea3c8dfaeb525b46726b9b9f7e0086cb7))
+* update .plugin-versions example ([9968c79](https://github.com/egriff89/asdf-plugin-manager/commit/9968c79c17530e559d0ca78e011bf1712b880655))
+* use v1.1.1 in the readme ([#26](https://github.com/egriff89/asdf-plugin-manager/issues/26)) ([6433198](https://github.com/egriff89/asdf-plugin-manager/commit/6433198db29158d89a6217e4e056e2ba97c051e0))
+
+
+### Refactors
+
+* add flag to remove plugin if it's already installed ([#14](https://github.com/egriff89/asdf-plugin-manager/issues/14)) ([1369b04](https://github.com/egriff89/asdf-plugin-manager/commit/1369b04bf24c6e6f53f0db4e99f61b19c5dbd3ee))
+* replace asdf plugin update with a custom function ([29a8bb0](https://github.com/egriff89/asdf-plugin-manager/commit/29a8bb078a820763312cea21f5d8897a4eaa3ae3))
+* replace asdf plugin update with a custom function ([#41](https://github.com/egriff89/asdf-plugin-manager/issues/41)) ([136c63a](https://github.com/egriff89/asdf-plugin-manager/commit/136c63a4dcf16999fe633c32b70d00eb1f9c8a24))
+* update for compatibility with asdf v0.16 ([#71](https://github.com/egriff89/asdf-plugin-manager/issues/71)) ([c279829](https://github.com/egriff89/asdf-plugin-manager/commit/c2798294e3a5f84200ae607e3ebeabe41ed761a8))
+* use grep -E instead of egrep ([#70](https://github.com/egriff89/asdf-plugin-manager/issues/70)) ([00ba8ab](https://github.com/egriff89/asdf-plugin-manager/commit/00ba8ab35e1e8eb5e6506d2967dfc9c002691fee))
+
+
+### CI/CD
+
+* auto update version in readme and cli ([#76](https://github.com/egriff89/asdf-plugin-manager/issues/76)) ([bf686ea](https://github.com/egriff89/asdf-plugin-manager/commit/bf686eabf16391b00639a98c74fd53efe227570c))
+* use gitref in asdf-vm/actions/plugin-test ([f1cc739](https://github.com/egriff89/asdf-plugin-manager/commit/f1cc7390168e10e2f7ebc044293957fe72009d5b))
+* use release-please config ([#73](https://github.com/egriff89/asdf-plugin-manager/issues/73)) ([796bd01](https://github.com/egriff89/asdf-plugin-manager/commit/796bd01984009caa6b29c08694e3ff37457106d8))
+
 ## [1.5.0](https://github.com/asdf-community/asdf-plugin-manager/compare/v1.4.0...v1.5.0) (2025-05-30)
 
 
